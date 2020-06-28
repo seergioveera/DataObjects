@@ -1,0 +1,86 @@
+body {
+  background-image: url(https://images4.alphacoders.com/667/667235.jpg);
+}
+
+
+/*formulario principal*/
+.principal {
+  font-family: monospace;
+  text-align: center;
+  width: 45%;
+  border: 1px solid #1668c4;
+  margin: 50px;
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.8);
+  color: #ffffff;
+  position: absolute;
+  top: 12%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 10px 10px 10px 10px;
+}
+
+input[type="text"] {
+  margin-bottom: 20px;
+  width: 30%;
+  padding: 10px;
+  box-sizing: border-box;
+  border: 2px solid #09608b;
+  border-radius: 10px 10px 10px 10px;
+}
+
+label {
+  font-size: 20px;
+  width: 100%;
+}
+
+.table {
+  text-align: center;
+  font-family: monospace;
+  width: 90%;
+  border: 1px solid #1668c4;
+  background-color: rgba(0, 0, 0, 0.8);
+  margin: 20px;
+  padding: 20px;
+  transform: translate(-50%, -50%);
+  border-radius: 10px 10px 10px 10px;
+  color: #ffffff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+
+button,
+input[type="submit"] {
+  cursor: pointer;
+  padding: 6px;
+  font-family: monospace;
+  font-size: 15px;
+  color: #ffffff;
+  background-color: #09608b;
+  border-radius: 10px 10px 10px 10px;
+}
+
+
+
+th {
+  font-size: 22px;
+}
+
+/*formulario de modificar & agregar*/
+.form {
+  text-align: center;
+  font-family: monospace;
+  font-size: 16px;
+  width: 60%;
+  border: 1px solid #1668c4;
+  background-color: rgba(0, 0, 0, 0.8);
+  margin: 20px;
+  padding: 20px;
+  transform: translate(-50%, -50%);
+  border-radius: 10px 10px 10px 10px;
+  color: #ffffff;
+  position: absolute;
+  top: 65%;
+  left: 50%;
+}
